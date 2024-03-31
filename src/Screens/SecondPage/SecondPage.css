@@ -1,0 +1,244 @@
+.WholeScreenFirstPage{
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Logo{
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+.SquareQMark{
+  top:55%;
+  right:0;
+  position: absolute;
+  z-index: 1;
+}
+
+.GroupLeft{
+  margin: auto 0;
+  left:0;
+  position: absolute;
+  height: 100vh;
+}
+
+.GroupRight{
+  margin: auto 0;
+  right:0;
+  position: absolute;
+  height: 100vh;
+}
+
+.MainContentScreen{
+    margin: 5% 5% 2% 5%;
+    height: 100vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContentMainHeading{
+    display: flex;
+    justify-content: left;
+    font-size: 2.5rem;
+    padding: 0rem 2rem 0rem 2rem;
+    margin-top: 1.7rem;
+    width: 100%;
+    line-height: 29px;
+}
+
+.ContentSubHeading{
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+    padding: 0rem 2rem 1rem 2rem;
+    width: 100%;
+    line-height: 29px;
+}
+
+.ContentDefinition{
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+    padding: 0rem 2rem 1rem 2rem;
+    width: 100%;
+    line-height: 29px;
+}
+
+.MainContentIntroSecondPage{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 3%;
+}
+
+.WholeGuess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.AnyGuesses{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.TextBoxAnyGuesses{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-left: 3%;
+}
+.Hint{
+    font-size: 24px;
+}
+
+.PlaceInText,.TimeInText{
+        width: 40px;
+        display: inline;
+        vertical-align: middle; 
+        margin:0 5px;
+}
+.EndContent{
+    font-size: 1.5rem;
+    /* padding: 0.1rem 0rem 1rem 1rem;  */
+    color: white;
+    line-height: 29px;
+}
+.HintImageDiv{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+.IntroContent{
+    font-size: 1.5rem;
+    padding: 0.1rem 0rem 1rem 1rem; 
+    color: white;
+    line-height: 29px;
+}
+
+.MidPictures{
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.SunnyBeach , .RainyNight{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.Clouds{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    img {
+      width: 50%; 
+      height: auto;
+    }
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .parent-image-container{
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+  }
+
+  .rectangle-container{
+    width:95%;
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .rectangle-text {
+    position: absolute;
+    top: 2%;
+    height: 70%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: left;
+    margin-left:4%;
+    line-height: 29px;
+
+  }
+
+  .rectangle-image{
+    width: 100%;
+  }
+
+  .Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 47rem;
+    margin-bottom: 2%;
+  }
+
+  .midbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5%;
+  }
+
+  .LeftButton:hover{
+    transform: scale(1.1);
+  }
+
+  
+  .RightButton:hover{
+    transform: scale(1.1);
+  }
